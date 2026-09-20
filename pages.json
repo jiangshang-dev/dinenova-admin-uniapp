@@ -283,7 +283,7 @@
   "easycom": {
     "autoscan": true,
     "custom": {
-      "^dn-(.*)": "@/components/dn-$1/dn-$1.vue"
+      "^dn-(.*)": "components/dn-$1/dn-$1.vue"
     }
   }
 }

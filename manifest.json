@@ -44,14 +44,15 @@
         "appid" : "wxab1eb347e36326e5",
         "setting" : {
             "urlCheck" : false,
-            "es6" : false,
+            "es6" : true,
             "minified" : true,
             "postcss" : true
         },
         "optimization" : {
             "subPackages" : true
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "libVersion" : "3.5.5"
     },
     "vueVersion" : "2",
     "h5" : {
