@@ -1,92 +1,272 @@
 {
-  "pages": [{
-    "path": "pages/login",
-    "style": {
-      "navigationBarTitleText": "登录"
+  "pages": [
+    {
+      "path": "pages/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/index",
+      "style": {
+        "navigationBarTitleText": "数据看板",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "style": {
+        "navigationBarTitleText": "订单"
+      }
+    },
+    {
+      "path": "pages/work/index",
+      "style": {
+        "navigationBarTitleText": "工作台"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/order/refund",
+      "style": {
+        "navigationBarTitleText": "售后订单"
+      }
+    },
+    {
+      "path": "pages/order/trade",
+      "style": {
+        "navigationBarTitleText": "交易设置"
+      }
+    },
+    {
+      "path": "pages/order/settlement",
+      "style": {
+        "navigationBarTitleText": "订单结算"
+      }
+    },
+    {
+      "path": "pages/member/list",
+      "style": {
+        "navigationBarTitleText": "会员列表"
+      }
+    },
+    {
+      "path": "pages/member/detail",
+      "style": {
+        "navigationBarTitleText": "会员详情"
+      }
+    },
+    {
+      "path": "pages/member/group",
+      "style": {
+        "navigationBarTitleText": "会员分组"
+      }
+    },
+    {
+      "path": "pages/member/grade",
+      "style": {
+        "navigationBarTitleText": "会员等级"
+      }
+    },
+    {
+      "path": "pages/member/openGift",
+      "style": {
+        "navigationBarTitleText": "开卡赠礼"
+      }
+    },
+    {
+      "path": "pages/member/setting",
+      "style": {
+        "navigationBarTitleText": "会员设置"
+      }
+    },
+    {
+      "path": "pages/coupon/group",
+      "style": {
+        "navigationBarTitleText": "卡券分组"
+      }
+    },
+    {
+      "path": "pages/coupon/list",
+      "style": {
+        "navigationBarTitleText": "卡券列表"
+      }
+    },
+    {
+      "path": "pages/coupon/confirm",
+      "style": {
+        "navigationBarTitleText": "卡券核销"
+      }
+    },
+    {
+      "path": "pages/coupon/user",
+      "style": {
+        "navigationBarTitleText": "会员卡券"
+      }
+    },
+    {
+      "path": "pages/coupon/confirmLog",
+      "style": {
+        "navigationBarTitleText": "核销流水"
+      }
+    },
+    {
+      "path": "pages/coupon/sendLog",
+      "style": {
+        "navigationBarTitleText": "发券记录"
+      }
+    },
+    {
+      "path": "pages/coupon/give",
+      "style": {
+        "navigationBarTitleText": "转赠记录"
+      }
+    },
+    {
+      "path": "pages/goods/cate",
+      "style": {
+        "navigationBarTitleText": "商品分类"
+      }
+    },
+    {
+      "path": "pages/goods/list",
+      "style": {
+        "navigationBarTitleText": "商品列表"
+      }
+    },
+    {
+      "path": "pages/goods/stock",
+      "style": {
+        "navigationBarTitleText": "库存管理"
+      }
+    },
+    {
+      "path": "pages/point/setting",
+      "style": {
+        "navigationBarTitleText": "积分设置"
+      }
+    },
+    {
+      "path": "pages/point/list",
+      "style": {
+        "navigationBarTitleText": "积分明细"
+      }
+    },
+    {
+      "path": "pages/balance/setting",
+      "style": {
+        "navigationBarTitleText": "充值设置"
+      }
+    },
+    {
+      "path": "pages/balance/list",
+      "style": {
+        "navigationBarTitleText": "余额明细"
+      }
+    },
+    {
+      "path": "pages/balance/recharge",
+      "style": {
+        "navigationBarTitleText": "会员充值"
+      }
+    },
+    {
+      "path": "pages/mine/avatar/index",
+      "style": {
+        "navigationBarTitleText": "修改头像"
+      }
+    },
+    {
+      "path": "pages/mine/info/index",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/mine/info/edit",
+      "style": {
+        "navigationBarTitleText": "编辑资料"
+      }
+    },
+    {
+      "path": "pages/mine/pwd/index",
+      "style": {
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    {
+      "path": "pages/mine/setting/index",
+      "style": {
+        "navigationBarTitleText": "应用设置"
+      }
+    },
+    {
+      "path": "pages/mine/help/index",
+      "style": {
+        "navigationBarTitleText": "常见问题"
+      }
+    },
+    {
+      "path": "pages/mine/about/index",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/common/webview/index",
+      "style": {
+        "navigationBarTitleText": "浏览网页"
+      }
+    },
+    {
+      "path": "pages/common/textview/index",
+      "style": {
+        "navigationBarTitleText": "浏览文本"
+      }
     }
-  }, {
-    "path": "pages/register",
-    "style": {
-      "navigationBarTitleText": "注册"
-    }
-  }, {
-    "path": "pages/index",
-    "style": {
-      "navigationBarTitleText": "若依移动端框架",
-      "navigationStyle": "custom"
-    }
-  }, {
-    "path": "pages/work/index",
-    "style": {
-      "navigationBarTitleText": "工作台"
-    }
-  }, {
-    "path": "pages/mine/index",
-    "style": {
-      "navigationBarTitleText": "我的"
-    }
-  }, {
-    "path": "pages/mine/avatar/index",
-    "style": {
-      "navigationBarTitleText": "修改头像"
-    }
-  }, {
-    "path": "pages/mine/info/index",
-    "style": {
-      "navigationBarTitleText": "个人信息"
-    }
-  }, {
-    "path": "pages/mine/info/edit",
-    "style": {
-      "navigationBarTitleText": "编辑资料"
-    }
-  }, {
-    "path": "pages/mine/pwd/index",
-    "style": {
-      "navigationBarTitleText": "修改密码"
-    }
-  }, {
-    "path": "pages/mine/setting/index",
-    "style": {
-      "navigationBarTitleText": "应用设置"
-    }
-  }, {
-    "path": "pages/mine/help/index",
-    "style": {
-      "navigationBarTitleText": "常见问题"
-    }
-  }, {
-    "path": "pages/mine/about/index",
-    "style": {
-      "navigationBarTitleText": "关于我们"
-    }
-  }, {
-    "path": "pages/common/webview/index",
-    "style": {
-      "navigationBarTitleText": "浏览网页"
-    }
-  }, {
-    "path": "pages/common/textview/index",
-    "style": {
-      "navigationBarTitleText": "浏览文本"
-    }
-  }],
+  ],
   "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#000000",
-    "borderStyle": "white",
+    "color": "#8a8a8a",
+    "selectedColor": "#e85d04",
+    "borderStyle": "black",
     "backgroundColor": "#ffffff",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index",
         "iconPath": "static/images/tabbar/home.png",
         "selectedIconPath": "static/images/tabbar/home_.png",
         "text": "首页"
-      }, {
+      },
+      {
+        "pagePath": "pages/order/index",
+        "iconPath": "static/images/tabbar/order.png",
+        "selectedIconPath": "static/images/tabbar/order_.png",
+        "text": "订单"
+      },
+      {
         "pagePath": "pages/work/index",
         "iconPath": "static/images/tabbar/work.png",
         "selectedIconPath": "static/images/tabbar/work_.png",
         "text": "工作台"
-      }, {
+      },
+      {
         "pagePath": "pages/mine/index",
         "iconPath": "static/images/tabbar/mine.png",
         "selectedIconPath": "static/images/tabbar/mine_.png",
@@ -96,7 +276,14 @@
   },
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "RuoYi",
-    "navigationBarBackgroundColor": "#FFFFFF"
+    "navigationBarTitleText": "仁信管理端",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f5f6f8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^dn-(.*)": "@/components/dn-$1/dn-$1.vue"
+    }
   }
 }

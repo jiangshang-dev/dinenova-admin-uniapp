@@ -1,8 +1,8 @@
 {
-    "name" : "若依移动端",
+    "name" : "仁信管理端",
     "appid" : "__UNI__25A9D80",
-    "description" : "",
-    "versionName" : "1.1.0",
+    "description" : "仁信餐饮点餐营销管理系统 - 管理端 App/小程序",
+    "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
     "app-plus" : {

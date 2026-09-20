@@ -3,7 +3,7 @@
     <view class="header-section text-center">
       <image style="width: 150rpx;height: 150rpx;" src="/static/logo200.png" mode="widthFix">
       </image>
-      <uni-title type="h2" title="若依移动端"></uni-title>
+      <uni-title type="h2" title="仁信管理端"></uni-title>
     </view>
 
     <view class="content-section">
@@ -38,7 +38,7 @@
     </view>
 
     <view class="copyright">
-      <view>Copyright &copy; 2022 ruoyi.vip All Rights Reserved.</view>
+      <view>Copyright &copy; 仁信餐饮管理系统</view>
     </view>
   </view>
 </template>

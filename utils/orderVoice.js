@@ -34,6 +34,17 @@ function ensureAudio() {
   return audio
 }
 
+const listeners = []
+
+export function onNewOrder(fn) {
+  if (typeof fn === 'function' && listeners.indexOf(fn) === -1) listeners.push(fn)
+}
+
+export function offNewOrder(fn) {
+  const i = listeners.indexOf(fn)
+  if (i > -1) listeners.splice(i, 1)
+}
+
 function notifyNewOrder(order) {
   try {
     uni.vibrateShort({})
@@ -50,7 +61,9 @@ function notifyNewOrder(order) {
     icon: 'none',
     duration: 2500
   })
-  uni.$emit && uni.$emit('new-order', order)
+  listeners.forEach(fn => {
+    try { fn(order) } catch (e) {}
+  })
 }
 
 function pickLatest(res) {
