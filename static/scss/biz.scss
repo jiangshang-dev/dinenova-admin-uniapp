@@ -1,0 +1,228 @@
+.page {
+  min-height: 100vh;
+  background: #f5f6f8;
+  display: flex;
+  flex-direction: column;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 24rpx;
+  background: #fff;
+  gap: 16rpx;
+}
+.search-input {
+  flex: 1;
+  height: 72rpx;
+  background: #f5f6f8;
+  border-radius: 36rpx;
+  padding: 0 28rpx;
+  font-size: 28rpx;
+}
+.search-btn {
+  color: #e85d04;
+  font-size: 28rpx;
+  padding: 0 8rpx;
+}
+.list {
+  flex: 1;
+  height: calc(100vh - 104rpx);
+  padding: 16rpx 24rpx 40rpx;
+  box-sizing: border-box;
+}
+.card {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 28rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.03);
+}
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+.card-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #222;
+  flex: 1;
+  margin-right: 16rpx;
+}
+.card-sub {
+  font-size: 24rpx;
+  color: #888;
+  line-height: 1.7;
+}
+.footer-tip {
+  text-align: center;
+  color: #bbb;
+  font-size: 24rpx;
+  padding: 24rpx 0 48rpx;
+}
+.seg {
+  display: flex;
+  background: #fff;
+  padding: 12rpx 16rpx;
+  gap: 12rpx;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.seg-item {
+  padding: 12rpx 28rpx;
+  border-radius: 28rpx;
+  font-size: 26rpx;
+  color: #666;
+  background: #f5f6f8;
+}
+.seg-item.active {
+  background: #fff1e8;
+  color: #e85d04;
+  font-weight: 600;
+}
+.banner-new {
+  margin: 16rpx 24rpx 0;
+  padding: 18rpx 24rpx;
+  border-radius: 16rpx;
+  background: linear-gradient(90deg, #ff7a45, #e85d04);
+  color: #fff;
+  font-size: 26rpx;
+}
+.btn-primary {
+  background: #e85d04;
+  color: #fff;
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.btn-ghost {
+  background: #fff1e8;
+  color: #e85d04;
+  border-radius: 44rpx;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.stat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+.stat-item {
+  width: calc(50% - 8rpx);
+  background: rgba(255,255,255,0.16);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  box-sizing: border-box;
+}
+.stat-num {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #fff;
+}
+.stat-label {
+  font-size: 24rpx;
+  color: rgba(255,255,255,0.85);
+  margin-top: 8rpx;
+}
+.section-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #222;
+  margin: 28rpx 0 16rpx;
+}
+.quick-grid {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 12rpx 0 20rpx;
+}
+.quick-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.quick-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-bottom: 12rpx;
+}
+.quick-text {
+  font-size: 24rpx;
+  color: #555;
+}
+.group-title {
+  font-size: 26rpx;
+  color: #999;
+  padding: 24rpx 8rpx 12rpx;
+}
+.form-card {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 24rpx;
+  padding: 8rpx 24rpx;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  min-height: 96rpx;
+  border-bottom: 1px solid #f0f0f0;
+}
+.form-row:last-child {
+  border-bottom: none;
+}
+.form-label {
+  width: 180rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.form-value {
+  flex: 1;
+  font-size: 28rpx;
+  color: #666;
+  text-align: right;
+}
+.form-input {
+  flex: 1;
+  text-align: right;
+  font-size: 28rpx;
+}
+.detail-card {
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 24rpx;
+  padding: 28rpx;
+}
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14rpx 0;
+  font-size: 28rpx;
+}
+.detail-label { color: #888; }
+.detail-value { color: #222; max-width: 60%; text-align: right; }
+.bottom-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 16rpx 24rpx calc(16rpx + env(safe-area-inset-bottom));
+  background: #fff;
+  display: flex;
+  gap: 16rpx;
+  box-shadow: 0 -4rpx 16rpx rgba(0,0,0,0.04);
+}
